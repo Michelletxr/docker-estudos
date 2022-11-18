@@ -1,0 +1,16 @@
+etapas
+1) criando um projeto node:
+    npm init - criar o package.jason
+    adicionando dependencies:
+
+        "dependencies": {
+        "express": "^4.15.3"
+        }
+    adicionando start:
+        "start": "node ."
+    npm install - instalar dependencies
+2) docker build -t <name_image>
+3) docker run -d -p <porta> <name_image>
+    flags:
+        -d - rodar ducker sem travar o terminal
+        -p - definir a porta que vai ser usada pelo servidor 
